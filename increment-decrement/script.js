@@ -17,6 +17,8 @@ const handleIncrement = function(){
   totalCount.innerHTML = count;
   count++;
 }
+
+// Function to delay increment
 const twoSecondDelay = setTimeout(handleIncrement, 2000);
 
 function stopCount() {
