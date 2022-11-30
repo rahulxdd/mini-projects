@@ -1,0 +1,17 @@
+.fa-down-long, .fa-up-long {
+  font-size: 32px;
+  margin: 25px;
+  cursor: pointer;
+}
+#total-count {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Font Awesome 6 Free';
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
