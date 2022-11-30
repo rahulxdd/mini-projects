@@ -14,10 +14,11 @@ totalCount.innerHTML = count;
 
 // Function to increment count
 const handleIncrement = function(){
-  count++;
   totalCount.innerHTML = count;
-  twoSecondDelay = setTimeout(handleIncrement, 2000);
+  count++;
 }
+const twoSecondDelay = setTimeout(handleIncrement, 2000);
+
 function stopCount() {
   clearTimeout(twoSecondDelay);
 }
